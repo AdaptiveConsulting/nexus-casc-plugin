@@ -2,20 +2,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!-- https://mvnrepository.com/artifact/org.sonatype.nexus.plugins/nexus-plugins -->
     <parent>
         <groupId>org.sonatype.nexus.plugins</groupId>
         <artifactId>nexus-plugins</artifactId>
-        <version>3.58.1-01</version>
+        <version>3.61.0-02</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.weareadaptive.nexus</groupId>
     <artifactId>nexus-casc-plugin</artifactId>
-    <version>3.58.1-01</version>
+    <version>3.61.0-02</version>
     <packaging>bundle</packaging>
 
     <properties>
-        <nexus.docker.version>3.58.1</nexus.docker.version>
+        <nexus.docker.version>3.61.0</nexus.docker.version>
 
         <maven-surefire-plugin.version>3.1.2</maven-surefire-plugin.version>
         <maven-enforcer-plugin.version>3.3.0</maven-enforcer-plugin.version>
